@@ -102,12 +102,13 @@ class App extends React.Component {
                 <section className="glassdoor-section">
                     <p>Get Glassdoor Rating for:</p>
                     <input
-                        placeholder="Enter company name"
+                        placeholder="DISABLED"
                         className="glassdoor-input"
                         onChange={ this.handleUpdate('company') }
                         value={ company }
                         type="text"/>
                     <button
+                        disabled
                         className="glassdoor-submit"
                         onClick={ this.handleSubmit }>
                         Submit

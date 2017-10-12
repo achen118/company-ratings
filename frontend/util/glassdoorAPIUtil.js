@@ -1,8 +1,5 @@
 import axios from 'axios';
 
-const id = id;
-const key = key;
-
 export const fetchGlassdoorCompany = company => {
     return axios({
         method: 'GET',
