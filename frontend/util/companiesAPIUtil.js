@@ -3,14 +3,14 @@ import axios from 'axios';
 export const fetchAllCompanies = () => {
     return axios({
         method: 'GET',
-        url: '/api/companies'
+        url: 'https://company-ratings.herokuapp.com/api/companies'
     });
 };
 
 export const addNewCompany = company => {
     return axios({
         method: 'POST',
-        url: '/api/companies',
+        url: 'https://company-ratings.herokuapp.com/api/companies',
         data: { company }
     });
 };
@@ -18,7 +18,7 @@ export const addNewCompany = company => {
 export const updateCompany = company => {
     return axios({
         method: 'PATCH',
-        url: `/api/companies/${company.id}`,
+        url: `https://company-ratings.herokuapp.com/api/companies/${company.id}`,
         data: { company }
     });
 };
