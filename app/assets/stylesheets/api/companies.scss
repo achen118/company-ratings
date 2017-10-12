@@ -1,0 +1,103 @@
+#root {
+    font-family: sans-serif;
+    color: white;
+    background-color: #69796D;
+    width: 100vw;
+    height: 100vh;
+}
+
+.outer-container {
+    padding: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.glassdoor-section {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.glassdoor-input {
+    margin-left: 10px;
+}
+
+.glassdoor-submit {
+    margin: 0 10px;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.table-headers {
+    font-weight: 700;
+}
+
+.table-headers, .company-info {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.table-headers li,
+.company-info li {
+    width: 20%;
+    padding-bottom: 20px;
+}
+
+.update-input {
+    position: absolute;
+    width: 5%;
+    left: 20%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.cancel-button {
+    margin-left: 10px;
+}
+
+.error {
+    font-size: 10px;
+    color: red;
+}
+
+button:focus, input:focus {
+    outline: none;
+}
+
+.glassdoor-submit,
+.update-button,
+.cancel-button {
+    padding: 5px 8px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #30B2EA;
+    border: 2px solid #30B2EA;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    padding: 5px 7px;
+    border-radius: 3px;
+    font-size: 10px;
+}
