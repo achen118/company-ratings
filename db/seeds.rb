@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Company.destroy_all
+
+Company.create!(name: "Google", rating: 4.4)
+Company.create!(name: "Twitter", rating: 3.9)
+Company.create!(name: "Taco Bell", rating: 3.2)
+Company.create!(name: "Twilio", rating: 4.2)
